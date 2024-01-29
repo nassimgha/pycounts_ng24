@@ -1,5 +1,5 @@
 from pycounts_ng24 import pycounts_ng24
-from pycounts.pycounts import count_words
+from pycounts.pycounts_ng24 import count_words
 from collections import Counter
 
 def test_count_words():
