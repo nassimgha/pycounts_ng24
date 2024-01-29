@@ -2,6 +2,7 @@ from pycounts_ng24 import pycounts_ng24
 from pycounts_ng24.pycounts_ng24 import count_words
 from collections import Counter
 
+
 def test_count_words():
     """Test word counting from a file."""
     expected = Counter({'insanity': 1, 'is': 1, 'doing': 1, 
